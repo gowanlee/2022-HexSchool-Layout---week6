@@ -1,3 +1,5 @@
+"use strict";
+
 // programming languages swiper
 var swiper = new Swiper('.programmingLanguagesSwiper', {
   // 跑馬燈效果
@@ -12,44 +14,40 @@ var swiper = new Swiper('.programmingLanguagesSwiper', {
   //多欄
   breakpoints: {
     768: {
-        slidesPerView: 4
+      slidesPerView: 4
     },
     992: {
-        slidesPerView: 5
+      slidesPerView: 5
     },
     1200: {
-        slidesPerView: 6
+      slidesPerView: 6
     }
   }
-});
+}); // feedback swiper
 
-// feedback swiper
 var swiper = new Swiper('.feedbackSwiper', {
   // Optional parameters
   effect: 'fade',
   fadeEffect: {
     crossFade: true
   },
-
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination'
   },
-
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    prevEl: '.swiper-button-prev'
   },
-
   autoplay: {
-    delay: 5000,
-  },
-});
+    delay: 5000
+  }
+}); // datepicker
 
-// datepicker
-const elem = document.querySelector('input[name="datepicker"]');
-const datepicker = new Datepicker(elem, {
+var elem = document.querySelector('input[name="datepicker"]');
+var datepicker = new Datepicker(elem, {
   language: 'zh-TW',
-  buttonClass: 'btn',
-}); 
+  buttonClass: 'btn'
+});
+//# sourceMappingURL=all.js.map
