@@ -16,7 +16,7 @@
 
 <b>3. BS是用mobile first</b>
 
-4. 格線系統
+<b>4. 格線系統</b>
   - .col- 的外層只能是 .row
   - .row 裡面只能是 .col-
   - 最外層至少補一個 container 可以置中 
