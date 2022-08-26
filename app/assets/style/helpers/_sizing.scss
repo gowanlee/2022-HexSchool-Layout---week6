@@ -1,0 +1,51 @@
+// width
+.w-10{
+    width: 10px;
+}
+
+.w-24{
+    width: 24px;
+}
+
+.w-32{
+    width: 32px;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+// height
+.h-2{
+    height: 2px;
+}
+
+.h-10{
+    height: 10px;
+}
+
+.h-24{
+    height: 24px;
+}
+
+.h-32{
+    height: 32px;
+}
+
+.h-58px {
+    height: 58px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.h-263px {
+    height: 263px;
+}
+
+@include media-breakpoint-up(lg) {
+    .h-lg-615px {
+        height: 615px;
+    }
+}

@@ -1,0 +1,42 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    //outline: 1px solid yellow;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover; 
+}
+
+p ,  h1 , h2 , h3 , h4 , h5{
+    margin: 0;
+    line-height: 1.5;
+}
+
+// 清除點擊按鈕及連結出現的邊框及陰影
+button:focus , button:active:focus , a:focus , a:active:focus{
+    outline: none !important; 
+    box-shadow:none !important; 
+}
+
+input , select{
+    outline: none; 
+}
+
+label:focus , input:focus , select:focus{
+    border: 1px solid $primary;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
