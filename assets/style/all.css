@@ -15800,11 +15800,6 @@ input[type=number] {
   color: #62DB54 !important;
 }
 
-.progress-text {
-  top: 24px;
-  left: -24px;
-}
-
 @media (min-width: 992px) {
   .bg-lg-gray-800 {
     background-color: #1C1C1C;
