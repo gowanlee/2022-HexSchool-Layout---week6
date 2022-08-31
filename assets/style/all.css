@@ -15801,8 +15801,8 @@ input[type=number] {
 }
 
 .progress-text {
-  top: 36px;
-  left: -60%;
+  top: 24px;
+  left: -24px;
 }
 
 @media (min-width: 992px) {

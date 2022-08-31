@@ -9,17 +9,20 @@ var swiper = new Swiper('.programmingLanguagesSwiper', {
   },
   speed: 1500,
   loop: true,
-  spaceBetween: 16,
+  spaceBetween: 160,
   slidesPerView: 3,
   //多欄
   breakpoints: {
     768: {
+      spaceBetween: 80,
       slidesPerView: 4
     },
     992: {
+      spaceBetween: 16,
       slidesPerView: 5
     },
     1200: {
+      spaceBetween: 16,
       slidesPerView: 6
     }
   }

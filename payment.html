@@ -64,7 +64,7 @@
               <label class="label w-100" for="loginPassword">密碼</label>
               <input class="input w-100" type="password" name="loginPassword" id="loginPassword" placeholder="請輸入密碼" required>
             </div>
-            <button class="btn-gradient-x border-0 rounded-8 py-2 text-white" type="submit">登入</button>
+            <a class="btn-gradient-x border-0 rounded-8 py-2 text-white text-center" href="./register.html">登入</a>
           </form>
           <div class="border-top position-relative w-100 mb-7">
             <span class="text-gray-500 px-4 bg-gray-700 position-absolute top-0 start-50 translate-middle">其他登入方式</span>
@@ -97,16 +97,16 @@
                         </div>
                         <button type="button"
                             class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill text-white font-mono position-relative d-flex justify-content-center align-items-center"
-                            style="width: 2rem; height:2rem;"><span class="material-icons text-start">done</span><span
+                            style="width: 1.25rem; height:1.25rem;"><span class="material-icons text-start">done</span><span
                                 class="progress-text position-absolute text-nowrap text-primary fs-8">課程報名</span></button>
                         <button type="button"
                             class="position-absolute top-0 start-50 translate-middle btn btn-sm
-                            bg-primary text-white rounded-pill font-mono"
-                            style="width: 2rem; height:2rem;">2<span
-                                class="progress-text position-absolute text-nowrap text-primary fs-8">信用卡付款</span></button>
+                            bg-primary text-white rounded-pill font-mono d-flex justify-content-center align-items-center"
+                            style="width: 1.25rem; height:1.25rem;">2<span
+                                class="progress-text position-absolute text-nowrap text-primary fs-8" style="left: -30px;">信用卡付款</span></button>
                         <button type="button"
-                            class="position-absolute top-0 start-100 translate-middle btn btn-sm bg-gray-700 border border-gray-500 text-white rounded-pill font-mono"
-                            style="width: 2rem; height:2rem;">3<span
+                            class="position-absolute top-0 start-100 translate-middle btn btn-sm bg-gray-700 border border-gray-500 text-white rounded-pill font-mono d-flex justify-content-center align-items-center"
+                            style="width: 1.25rem; height:1.25rem;">3<span
                                 class="progress-text position-absolute text-nowrap text-gray-500 fs-8">付款成功</span></button>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                         <form action="./payment-success.html">
                             <div class="mb-4">
                                 <label for="paymentCardnumber" class="label">信用卡帳號</label>
-                                <input type="number" class="input w-100" id="paymentCardnumber" placeholder="Xxxx-xxxx-xxxx-xxxx" required>
+                                <input type="text" class="input w-100" id="paymentCardnumber" placeholder="Xxxx-xxxx-xxxx-xxxx" required>
                             </div>
                             <div class="mb-4">
                                 <label for="paymentSecuritynumber" class="label">安全碼</label>
