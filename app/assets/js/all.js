@@ -7,18 +7,21 @@ var swiper = new Swiper('.programmingLanguagesSwiper', {
   },
   speed: 1500,
   loop: true,
-  spaceBetween: 16,
+  spaceBetween: 160,
   slidesPerView: 3,
   //多欄
   breakpoints: {
     768: {
-        slidesPerView: 4
+      spaceBetween: 80,
+      slidesPerView: 4
     },
     992: {
-        slidesPerView: 5
+      spaceBetween: 16,
+      slidesPerView: 5
     },
     1200: {
-        slidesPerView: 6
+      spaceBetween: 16,
+      slidesPerView: 6
     }
   }
 });
